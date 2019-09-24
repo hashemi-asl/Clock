@@ -3,4 +3,4 @@
 Clock Pure JS Version
 
 
-![GitHub Clock](./images/Clock.GIF)
+![GitHub Clock](./image/Clock.GIF)
