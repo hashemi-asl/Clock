@@ -3,7 +3,7 @@ html{
 }
 
 body {
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(107,157,171,1) 23.8%, rgba(92,122,158,1) 66% );
+    background-image: linear-gradient( 69.9deg,  rgba(76,79,106,1) 3.2%, rgba(118,124,163,1) 97.6% );
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,7 +32,7 @@ div {
 }
 
 button{
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(107,157,171,1) 23.8%, rgba(92,122,158,1) 66% );
+    background-image: linear-gradient( 69.9deg,  rgba(76,79,106,1) 3.2%, rgba(118,124,163,1) 97.6% );
     height: 36px;
     color: inherit;
     border: none;
@@ -43,7 +43,7 @@ button{
 }
 
 button:hover {
-    background: #414141;
+    background: #6362629c;
 }
 
 button:focus{
@@ -51,8 +51,19 @@ button:focus{
     background: #616161;
 }
 
-span:last-of-type {
+#container span:last-of-type {
     font-size: 3rem;
     margin-left: 1rem;
     text-transform: uppercase;
 }
+#laps {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+#laps > div > span:first-child{
+    font-size: 1.33rem;
+}
+#laps > div > span:last-child{
+    font-size: 1.2rem;
+} 
